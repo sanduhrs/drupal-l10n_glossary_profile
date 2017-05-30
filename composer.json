@@ -1,0 +1,14 @@
+{
+  "name": "drupal/l10n_glossary_profile",
+  "type": "drupal-profile",
+  "description": "My Awesome Profile",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/l10n_glossary_profile",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/l10n_glossary_profile",
+    "source": "http://cgit.drupalcode.org/l10n_glossary_profile"
+  },
+  "require": { }
+}

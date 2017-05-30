@@ -1,0 +1,21 @@
+uuid: 1ed4e090-8ede-4ee6-a9d1-2d5d6b056fde
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: dJ0L2DNSj5q6XVZAGsuVDpJTh5UeYkIPwKrUOOpr8YI
+id: authenticated
+label: 'Authenticated user'
+weight: 1
+is_admin: false
+permissions:
+  - 'access comments'
+  - 'access content'
+  - 'access shortcuts'
+  - 'access site-wide contact form'
+  - 'create content translations'
+  - 'post comments'
+  - 'search content'
+  - 'skip comment approval'
+  - 'translate term node'
+  - 'use text format basic_html'

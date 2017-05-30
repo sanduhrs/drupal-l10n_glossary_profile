@@ -1,0 +1,35 @@
+uuid: a8e1131e-0286-4c48-86f9-16fee3701c3c
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.term.body
+    - field.field.node.term.field_translation
+    - field.field.node.term.field_type
+    - node.type.term
+  module:
+    - text
+    - user
+_core:
+  default_config_hash: k8QlNo2oxsv7UW0Ta-DmVBlagH4PDCeJ95jC5ShFQBA
+id: node.term.teaser
+targetEntityType: node
+bundle: term
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden:
+  field_translation: true
+  field_type: true
+  langcode: true

@@ -45,6 +45,7 @@ dependencies:
   - serialization
   - update
   - user
+  - locale
   - content_translation
   - clipboardjs
   - jsonapi

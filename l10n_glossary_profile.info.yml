@@ -45,6 +45,7 @@ dependencies:
   - serialization
   - update
   - user
+  - content_translation
   - clipboardjs
   - jsonapi
   - l10n_glossary

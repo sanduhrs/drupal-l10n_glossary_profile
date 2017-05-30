@@ -38,7 +38,7 @@ dependencies:
   - views
   - views_ui
   - tour
-  - automted_cron
+  - automated_cron
   - language
   - link
   - text
